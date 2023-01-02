@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url("imagens/lagoa-de-bora-bora-564314.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+
+
+p{
+    font-size: 17px;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background: none;
+    height: 60vh;
+    background-size: cover;
+}
+
+header h1{
+    margin: 20vh 0px 0px 50px;
+    display: inline-block;
+    color: black;
+    padding: 25px;
+    background-color:rgb(212, 196, 196) ;
+}
+
+header p{
+    font-size: 20px;
+    position: absolute;
+    color: #f0e6df;
+    display: block;
+    padding: 25px;
+    background-color: rgb(49, 49, 49);
+    width: 650px;
+    margin-left: 50px;
+}
+
+/* .span{
+    width: 100%;
+    background-color: white;
+} */
+
+.container{
+    background-color: rgb(172, 213, 227);
+    width: 90%;
+    margin: 40px auto;
+    border-radius: 3px;
+    padding: 25px;
+    height: 2500px;
+}
+
+.destinos img{
+    border-radius: 3px 3px 0px 0px;
+    width: 350px;
+    height: 200px;
+}
+
+.destinos h2{
+    text-align: left;
+}
+
+.destinos{
+
+    margin: 50px auto;
+
+}
+
+.a{
+    border-radius: 0px 0px 3px 3px;
+}
+
+.destino{
+    margin-bottom: 25px;
+}
+
+.destino a{
+    text-decoration: none;
+}
+
+.destino p{
+    width: 350px;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 0;
+}
+
+.historia img{
+    float: left;
+    margin: 0px 35px 0px 0px;
+}
+
+
+
+section{
+    width: 70%;
+    float: right;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+section img{
+    width: 150px;
+}
+
+aside{
+    
+    /* background-color: rgb(151, 175, 196); */
+    width: 30%;
+}
+
+.botao{
+    margin-bottom: 25px;
+}
+
+.modal1, .modal2{
+    background-color: rgba(0,0,0,.8);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    display: none;
+  }
+
+.body-modal1, .body-modal2{
+    max-width: 900px;
+    padding: 25px;
+    margin: 30px auto;
+    background-color: white;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+}
+
+img{
+    max-width: 100%;
+  }
+
+#botao-massa{
+    margin-left: 50px;
+    color: white;
+    font-size: 50px;
+}
+
+#botao-massa:hover{
+    cursor: pointer;
+}
+
+section{
+    text-align: center;
+}
+
+section a{
+    text-decoration: none;
+    color: black;
+}
+
+section a:hover{
+    color: black;
+}
+
+section div{
+    margin: 15px;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(31, 31, 31);
+    color: rgb(212, 212, 212);
+    height: 100px;
+}
+
+@media (max-width: 1200px){
+
+    .container{
+        height: 3000px;
+    }
+
+}
+
+@media (max-width: 1000px){
+
+
+    body{
+        background: none;
+    }
+
+    header{
+        text-align: center;
+        background-color:rgb(212, 196, 196);
+        height: 230px;
+        padding-bottom: 25px;
+    }
+
+    header h1{
+        margin: 0px;
+    }
+
+    header p{
+        margin: 0px;
+        width: 100%;
+    }
+
+    .container h2{
+        text-align: center;
+        
+    }
+
+    .destinos p{
+        max-width: 100%;
+    }
+
+    .container{
+        margin: auto;
+        margin-top: 0px;
+        width: 100%;
+        height: 4700px;
+    }
+
+    section{
+        width: 60%;
+        float: right;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
