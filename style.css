@@ -1,3 +1,5 @@
+
+
 *{
     padding: 0;
     margin: 0;
@@ -31,7 +33,7 @@ header h1{
     display: inline-block;
     color: black;
     padding: 25px;
-    background-color:rgb(212, 196, 196) ;
+    background-color: rgb(255, 228, 148);
 }
 
 header p{
@@ -45,6 +47,10 @@ header p{
     margin-left: 50px;
 }
 
+.bi-arrow-90deg-left{
+    font-size: 40px !important;
+}
+
 /* .span{
     width: 100%;
     background-color: white;
@@ -56,7 +62,7 @@ header p{
     margin: 40px auto;
     border-radius: 3px;
     padding: 25px;
-    height: 2500px;
+    height: 3200px;
 }
 
 .destinos img{
@@ -73,6 +79,22 @@ header p{
 
     margin: 50px auto;
 
+}
+
+.hotel, .casatemp, .resort, .casaalug, .pousada{
+    background-color: rgb(33, 37, 41);
+    padding-bottom: 0 !important;
+    height: 80%;
+    width: 200px;
+    padding-top: 8px;
+    border-radius: 5px;
+}
+
+.hotel p, .casatemp p, .resort p, .casaalug p, .pousada p{
+    background-color: rgb(255, 193, 7);
+    height: 30%;
+    padding-top: 3px;
+    border-radius: 0 0 5px 5px;
 }
 
 .a{
@@ -105,7 +127,7 @@ section{
     width: 70%;
     float: right;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 section img{
@@ -183,8 +205,15 @@ footer{
 
 @media (max-width: 1200px){
 
+    section{
+        width: 60%;
+        float: right;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
     .container{
-        height: 3000px;
+        height: 4100px;
     }
 
 }
@@ -197,8 +226,10 @@ footer{
     }
 
     header{
+        margin: auto;
+        width: 85%;
         text-align: center;
-        background-color:rgb(212, 196, 196);
+        background-color:rgb(255, 228, 148);
         height: 230px;
         padding-bottom: 25px;
     }
@@ -208,8 +239,8 @@ footer{
     }
 
     header p{
-        margin: 0px;
-        width: 100%;
+        margin: 0px auto;
+        width: 85%;
     }
 
     .container h2{
@@ -225,14 +256,24 @@ footer{
         margin: auto;
         margin-top: 0px;
         width: 100%;
-        height: 4700px;
+        height: 5100px;
     }
 
     section{
-        width: 60%;
+        width: 70%;
         float: right;
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .hotel, .casatemp, .resort, .casaalug, .pousada{
+        width: 150px;
+        padding: 10px 10px 0 10px;
+    }
+
+    .hotel p, .casatemp p, .resort p, .casaalug p, .pousada p{
+        padding-top: 5px;
+        height: 40%;
     }
 
 }
